@@ -33,4 +33,7 @@ public class Library {
         }
         return matchedBooks.toArray(new Book[0]);
     }
+    public Book[] displayBooks() {
+        return books.toArray(new Book[0]);
+    }
 }
